@@ -193,6 +193,12 @@ main {
 
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .productos h2{
     font-size: 30px;
     font-weight: bold;
