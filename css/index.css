@@ -25,7 +25,7 @@ main {
 }
 #navbar__logo {
     background-color: #ff77f8;
-    background-image: linear-gradient(to top,#3508ff 0%, #99c5ff 100%);
+    background-image: linear-gradient(to top,#195294 0%, #99c5ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -47,7 +47,7 @@ main {
     height: 80px;
 }
 .navbar__links {
-    color: #fff;
+    color: rgb(28, 114, 163);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,11 +72,11 @@ main {
     height: 100%;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 7px;
     background: #ff77f8;
-    background: -webkit-linear-gradient(to right, #880af0, #fd1dea, #030152);
-    background: linear-gradient(to right, #880af0, #fd1dea, #030152);
-    color: #fff;
+    background: -webkit-linear-gradient(to right, #2a5ba1, #141413, #060606, #1b476d);
+    background: linear-gradient(to right, #5b5bb8, #141413, #060606, #195c8a);
+    color: rgb(183, 222, 247);
     transition: all 0.3s ease;
 
     
