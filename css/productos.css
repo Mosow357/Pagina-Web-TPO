@@ -16,9 +16,10 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    min-width: 0;
-    height: 25rem;
     
+    height: 25rem;
+    align-content: center;
+    margin: 0 0 0 0;  
     
   
 }
@@ -40,7 +41,7 @@ nav a{
 }
 .productos{
     width: 1020px;
-    margin: 0 auto;
+    margin: 7rem auto 10rem;
     padding: 10px 10px 10px;
 }
 .productos li{
@@ -56,7 +57,10 @@ nav a{
 
 }
 .imgProducto{
-    width: 350px;
+    width: 20rem;
+    height: 22rem;
+    margin: 0 0 0 0;
+
 }
 .productos h2{
     font-size: 30px;

@@ -24,7 +24,7 @@ main {
     padding: 0 50px;
 }
 #navbar__logo {
-    background-color: #ff77f8;
+    
     background-image: linear-gradient(to top,#195294 0%, #99c5ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -54,7 +54,7 @@ main {
     width: 125px; 
     text-decoration: none;
     height: 100%;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 .navbar__btn {
     display: flex;
@@ -73,19 +73,19 @@ main {
     border: none;
     outline: none;
     border-radius: 7px;
-    background: #ff77f8;
+    
     background: -webkit-linear-gradient(to right, #2a5ba1, #141413, #060606, #1b476d);
     background: linear-gradient(to right, #5b5bb8, #141413, #060606, #195c8a);
     color: rgb(183, 222, 247);
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 
     
 }
 .navbar__links:hover {
     color: lightsteelblue;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 780px) {
     .navbar__container {
        display: flex;
        justify-content: space-between;
@@ -174,10 +174,18 @@ main {
     margin: 0 auto;
     padding: 50px;
 }
-
+.card {
+    margin: 0 2rem 0 2rem;
+    align-content: center;
+}
+li:hover {
+    box-shadow:  7px 7px 17px aliceblue;
+    transition: 1s;
+}
 .imgProducto {
     height: 300px;
     width: 300px;
+    
 }    
 
 .productos li{
@@ -233,4 +241,10 @@ form {
 .socialIcon{
     font-size: 30px;
     color: #e4e1f0;
+}
+.socialIcon:hover {
+    color: #99c5ff;
+    transition: 1s;
+    text-shadow: 7px 7px 17px aliceblue;
+     ;
 }
