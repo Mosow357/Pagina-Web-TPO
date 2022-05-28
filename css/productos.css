@@ -1,4 +1,6 @@
 * {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Special Elite', cursive;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +15,7 @@ body {
     
 }
 .card {
+    color: aliceblue;
     position: relative;
     display: flex;
     flex-direction: column;
