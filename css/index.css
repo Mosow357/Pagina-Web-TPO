@@ -181,20 +181,14 @@ main {
     margin: 0 auto;
     padding: 50px;
 }
-.card {
-    margin: 0 2rem 0 2rem;
-    align-content: center;
-}
+
+
 li:hover {
     text-shadow:  7px 7px 7px aliceblue;
     transition: 1s;
     color: #e4e1f0;
 }
-.imgProducto {
-    height: 300px;
-    width: 300px;
-    
-}    
+   
 
 .productos li{
     display: inline-block;
