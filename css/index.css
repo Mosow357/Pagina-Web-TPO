@@ -128,7 +128,7 @@ main {
     .navbar__toggle .bar {
         width: 25px;
         height: 3px;
-        margin: 5px auto;
+        margin: 6px 25px;
         transition: all 0.3s ease-in-out;
         background: #fff;
     }
