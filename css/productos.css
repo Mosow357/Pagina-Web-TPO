@@ -59,21 +59,15 @@ nav a{
 .imgProducto{
     width: 20rem;
     height: 22rem;
-    margin: 0 0 0 0;
+    margin: 0;
 
 }
 .productos h2{
     font-size: 30px;
     font-weight: bold;
 }
-.descripcion{
-    font-size: 18px;
-}
-.precio{
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 10px;
-}
+
+
 footer{
     text-align: center;
     margin-bottom: 8px;
@@ -89,6 +83,7 @@ footer{
     padding: 30px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 20rem;
     border-radius: 7px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(215, 229, 241);
@@ -124,11 +119,16 @@ footer{
 .formulario a:hover {
     color: rgb(126, 208, 244);
     text-decoration: underline;
+    transition: 1s;
     
+    
+}
+button:hover {
+    color: aliceblue;
 }
 .formulario button {
     width: 100%;
-    background: #7fa4f4;
+    
     border: none;
     color: aliceblue;
     margin: 17px 0;

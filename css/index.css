@@ -37,6 +37,12 @@ main {
     text-decoration: none;
     font-size: 2rem;
 }
+#navbar__logo:hover {
+    text-shadow:  7px 7px 7px aliceblue;
+    transition: 1s;
+    color: #e4e1f0;
+
+}
 .navbar__menu {
     display: flex;
     align-items: center;
@@ -170,6 +176,7 @@ main {
 }
 
 .productos{
+    justify-content: space-around;
     width: 1020px;
     margin: 0 auto;
     padding: 50px;
@@ -179,8 +186,9 @@ main {
     align-content: center;
 }
 li:hover {
-    box-shadow:  7px 7px 17px aliceblue;
+    text-shadow:  7px 7px 7px aliceblue;
     transition: 1s;
+    color: #e4e1f0;
 }
 .imgProducto {
     height: 300px;
@@ -245,6 +253,6 @@ form {
 .socialIcon:hover {
     color: #99c5ff;
     transition: 1s;
-    text-shadow: 7px 7px 17px aliceblue;
+    text-shadow: 7px 7px 7px aliceblue;
      ;
 }
