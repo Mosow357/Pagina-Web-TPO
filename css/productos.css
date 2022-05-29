@@ -90,8 +90,10 @@ footer{
     margin-top: 100px;
     margin-bottom: 20rem;
     border-radius: 7px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(215, 229, 241);
+    
+    color: rgb(150, 186, 216);
+    font-weight: bold;
+    font-size: 1.5rem;
     box-shadow: 7px 14px 37px aliceblue;
 
 }
@@ -102,13 +104,13 @@ footer{
 }
 .controls {
     width: 100%;
-    background: #000000;
+    background: transparent;
     border-radius: 7px;
     margin-bottom: 17px;
     border: 2px solid skyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    color: aliceblue;
+    color: rgb(100, 186, 243);
 }
 .formulario p {
     height: 40px;
@@ -129,12 +131,15 @@ footer{
     
 }
 button:hover {
-    color: aliceblue;
+    color: rgb(66, 163, 247);
+    
 }
 .formulario button {
     width: 100%;
     
-    border: none;
+    border: solid;
+    border-color: #4cb0e7;
+
     color: aliceblue;
     margin: 17px 0;
     font-size: 17px;
@@ -150,3 +155,4 @@ button:hover {
     color: #85dff8;
     padding: 7px 7px 7px 7px;
 }
+

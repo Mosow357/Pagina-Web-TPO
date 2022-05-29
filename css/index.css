@@ -40,7 +40,7 @@ main {
 #navbar__logo:hover {
     text-shadow:  7px 7px 7px aliceblue;
     transition: 1s;
-    color: #e4e1f0;
+    color: #03286c;
 
 }
 .navbar__menu {
@@ -86,6 +86,13 @@ main {
     transition: all 1s ease;
 
     
+}
+.button:hover {
+    text-shadow:  2px 2px 3px rgb(235, 218, 36);
+    transition: 1s;
+    text-shadow:  2px 2px 3px rgb(235, 218, 36);
+    color: rgb(235, 218, 36);
+    box-shadow: 0px 3px 3px rgb(235, 218, 36);
 }
 .navbar__links:hover {
     color: lightsteelblue;

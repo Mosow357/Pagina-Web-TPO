@@ -50,14 +50,15 @@
             <h4>Contacto</h4>
 
             <label>Nombre</label>
-            <input class="controls" type="text" id="nombreApellido">
+            <input class="controls" type="text" id="nombreApellido" required>
 
             <label for="correoElectronico">Correo electrónico</label>
-            <input class="controls" type="email" id="correoElectronico">
+            <input class="controls" type="email" id="correoElectronico" required>
 
             <label for="contraseña">Contraseña</label>
             <input class="controls" type="password" id="contraseña">
-            <textarea class="mensaje" type="text"></textarea>
+            <label for="mensaje">Deja un mensaje</label>
+            <textarea class="mensaje" type="text" id="mensaje" required></textarea>
             <button class="button" type="submit" value="Enviar">Enviar</button>
             
         </form>
