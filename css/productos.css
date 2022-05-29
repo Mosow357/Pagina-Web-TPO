@@ -9,7 +9,9 @@ body {
     background-image: url(../imagenes/black-and-gold-marble-texture.jpg);
     
 }
-
+h2 {
+    color: #85dff8;
+}
 .imgProducto {
     max-width: 300px;
     
