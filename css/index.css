@@ -249,7 +249,8 @@ form {
 }
 .socialIcon:hover {
     color: #99c5ff;
-    transition: 1s;
-    text-shadow: 7px 7px 7px aliceblue;
-     
+    
+    
+    transform: scale(1.3) rotate(360deg);
+    transition: 1s; 
 }
