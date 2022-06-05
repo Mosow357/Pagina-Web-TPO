@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/productos.css"/>
+    <link rel="stylesheet" href="./css/navbar.css">
     <script src="https://kit.fontawesome.com/9ff96f2da2.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../imagenes/4211449-adventure-mountain-mountains-nature_115507.ico" class="ico">
     <title>Contacto</title>
@@ -17,31 +18,23 @@
 
   <body>
     <header>
-      
-      <nav class="navbar">
-        <div class="navbar__container">
-          <a href="#home" id="navbar__logo">Mosow</a>
-          <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-              <a href="./index.html" class="navbar__links" id="home-page">Home</a>
-            </li>
-           
-            <li class="navbar__item">
-              <a href="https://mosow357.github.io/Encriptator-Max/" class="navbar__links" id="about-page">Encriptador</a>
-            </li>           
-           
-            <li class="navbar__btn">
-              <a href="./contacto.html" class="button" id="signup">Contacto</a>
-            </li>
+      <nav>
+          <a href="./index.html"  id="navbar__logo" class="logo">Mosow</a>
+
+          <ul class="enlaces-menu">
+              <li><a href="./index.html" class="navbar__links" id="home-page">Home</a></li>
+              <li><a href="https://mosow357.github.io/Encriptator-Max/" class="navbar__links" id="about-page">Encriptador</a></li>
+              <li><a href="./contacto.html"  class="navbar__links" id="signup">Contacto</a></li>
+              
           </ul>
-        </div>
+
+          <button class="ham" type="button">   
+              <span class="br-1"></span>
+              <span class="br-2"></span>
+              <span class="br-3"></span>
+          </button>                       
       </nav>
-    </header>
+  </header>
 
 
     <main class="formulario">
@@ -87,5 +80,6 @@
         </div>
 
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
